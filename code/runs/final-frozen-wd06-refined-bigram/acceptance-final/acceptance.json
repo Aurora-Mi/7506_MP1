@@ -1,0 +1,106 @@
+{
+  "frozen_checkpoint_sha256": "c8c30df36e1e0b29beb11c36155d3f36020d2f8ad8462ee55d89e25a77db574f",
+  "split": "test",
+  "precision": "fp32",
+  "threads": 4,
+  "python_version": "3.12.14",
+  "os": "Windows-11-10.0.26200-SP0",
+  "repetitions": 3,
+  "runs": {
+    "baseline": [
+      {
+        "repeat": 1,
+        "bpb": 2.1012604380869244,
+        "score_seconds": 5.62638989998959,
+        "peak_working_set_bytes": 1954775040,
+        "peak_working_set_gib": 1.820526123046875,
+        "process_peaks_bytes": {
+          "244128": 1937317888,
+          "243732": 8593408,
+          "210060": 8863744
+        },
+        "checkpoint_sha256": "b7fdb67c8ef14b5166c0de1f17cf306f34800b41dfe97da856c9812cdb1f9701"
+      },
+      {
+        "repeat": 2,
+        "bpb": 2.1012604380869244,
+        "score_seconds": 5.687220000079833,
+        "peak_working_set_bytes": 1955037184,
+        "peak_working_set_gib": 1.820770263671875,
+        "process_peaks_bytes": {
+          "256500": 1937588224,
+          "226264": 8585216,
+          "228824": 8863744
+        },
+        "checkpoint_sha256": "b7fdb67c8ef14b5166c0de1f17cf306f34800b41dfe97da856c9812cdb1f9701"
+      },
+      {
+        "repeat": 3,
+        "bpb": 2.1012604380869244,
+        "score_seconds": 5.62041259999387,
+        "peak_working_set_bytes": 1947394048,
+        "peak_working_set_gib": 1.8136520385742188,
+        "process_peaks_bytes": {
+          "246036": 1938788352,
+          "225296": 8605696
+        },
+        "checkpoint_sha256": "b7fdb67c8ef14b5166c0de1f17cf306f34800b41dfe97da856c9812cdb1f9701"
+      }
+    ],
+    "final": [
+      {
+        "repeat": 1,
+        "bpb": 1.476789395067789,
+        "score_seconds": 24.743854100001045,
+        "peak_working_set_bytes": 2017808384,
+        "peak_working_set_gib": 1.8792304992675781,
+        "process_peaks_bytes": {
+          "258064": 2009239552,
+          "252564": 8568832
+        },
+        "checkpoint_sha256": "c8c30df36e1e0b29beb11c36155d3f36020d2f8ad8462ee55d89e25a77db574f"
+      },
+      {
+        "repeat": 2,
+        "bpb": 1.476789395067789,
+        "score_seconds": 24.76549779996276,
+        "peak_working_set_bytes": 2027118592,
+        "peak_working_set_gib": 1.8879013061523438,
+        "process_peaks_bytes": {
+          "258628": 2009686016,
+          "245596": 8572928,
+          "247092": 8859648
+        },
+        "checkpoint_sha256": "c8c30df36e1e0b29beb11c36155d3f36020d2f8ad8462ee55d89e25a77db574f"
+      },
+      {
+        "repeat": 3,
+        "bpb": 1.476789395067789,
+        "score_seconds": 24.457530300016515,
+        "peak_working_set_bytes": 2026082304,
+        "peak_working_set_gib": 1.8869361877441406,
+        "process_peaks_bytes": {
+          "258032": 2008649728,
+          "258112": 8572928,
+          "253508": 8859648
+        },
+        "checkpoint_sha256": "c8c30df36e1e0b29beb11c36155d3f36020d2f8ad8462ee55d89e25a77db574f"
+      }
+    ]
+  },
+  "baseline_median_seconds": 5.62638989998959,
+  "final_median_seconds": 24.743854100001045,
+  "median_time_ratio": 4.397820723381937,
+  "each_pair_time_ratios": [
+    4.397820723381937,
+    4.354587619190943,
+    4.351554243552011
+  ],
+  "final_peak_working_set_bytes": 2027118592,
+  "final_peak_working_set_gib": 1.8879013061523438,
+  "cpu_time_pass": true,
+  "peak_ram_pass": true,
+  "memory_method": "Conservative sum of per-process Windows PeakWorkingSetSize maxima queried every 50 ms for scorer and descendants (including venv redirector); includes load/preparation, excludes parent measurement helper.",
+  "timing_method": "Unchanged evaluate.py score seconds; paired fresh CPU FP32 4-thread processes; median ratio.",
+  "helper_sha256": "0b9a1eb5619ce0a75fc72eac0f199fcde081d57d8e1103d4beaea35609d24c76"
+}

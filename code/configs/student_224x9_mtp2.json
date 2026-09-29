@@ -1,0 +1,19 @@
+{
+  "vocab": 2048,
+  "width": 224,
+  "heads": 7,
+  "depth": 9,
+  "context": 256,
+  "rope": true,
+  "rmsnorm": true,
+  "swiglu": true,
+  "dropout": 0.1,
+  "scale_residual_init": true,
+  "tie_embeddings": true,
+  "head_bias": false,
+  "cache_lambda": 0.07,
+  "cache_theta": 10.0,
+  "logit_temperature": 1.12,
+  "mtp_heads": 2,
+  "mtp_weight": 0.2
+}

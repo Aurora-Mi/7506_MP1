@@ -1,0 +1,793 @@
+{
+  "protocol": "7506-mp1-wt2-v2",
+  "split": "validation",
+  "precision": "fp32",
+  "source_checkpoint": "E:\\MP1_student_starter\\code\\runs\\student-224x8-mtp2-ema-matrixwd06-s24000\\checkpoint.pt",
+  "source_checkpoint_sha256": "8f783d9948ecc5c51717da97763118a67379eabe30a6c03e0e599814c35b538f",
+  "checkpoint_sha256": "563420525a7f500f9ddc30dd5bbfb140c99a9efe17a5707107edbdf1e4950399",
+  "implementation_sha256": "71a43d118b593b0e253eb3d49d767f965e353632604e625f991843d3823f9022",
+  "search_sha256": "119544d2d6bae8449bf1504fe54556a137e4f9fc81f523a0514506240705e087",
+  "original_settings": {
+    "logit_temperature": 1.12,
+    "cache_lambda": 0.07,
+    "cache_theta": 10.0
+  },
+  "original_grid_bpb": 1.4632018468841774,
+  "selected": {
+    "logit_temperature": 1.11,
+    "cache_lambda": 0.05,
+    "cache_theta": 12.0,
+    "bpb": 1.4616408485783534
+  },
+  "verified_validation": {
+    "bpb": 1.4616408485736532,
+    "token_ppl": 21.941624884743753,
+    "nll_nats": 1163082.8956163567,
+    "targets": 376599,
+    "utf8_bytes": 1148007,
+    "seconds": 1.696080100024119
+  },
+  "candidates": [
+    {
+      "logit_temperature": 1.11,
+      "cache_lambda": 0.05,
+      "cache_theta": 12.0,
+      "bpb": 1.4616408485783534
+    },
+    {
+      "logit_temperature": 1.11,
+      "cache_lambda": 0.06,
+      "cache_theta": 12.0,
+      "bpb": 1.461672838016993
+    },
+    {
+      "logit_temperature": 1.1,
+      "cache_lambda": 0.05,
+      "cache_theta": 12.0,
+      "bpb": 1.4616764534331266
+    },
+    {
+      "logit_temperature": 1.1,
+      "cache_lambda": 0.06,
+      "cache_theta": 12.0,
+      "bpb": 1.461706818646748
+    },
+    {
+      "logit_temperature": 1.12,
+      "cache_lambda": 0.05,
+      "cache_theta": 12.0,
+      "bpb": 1.4617451537656216
+    },
+    {
+      "logit_temperature": 1.12,
+      "cache_lambda": 0.06,
+      "cache_theta": 12.0,
+      "bpb": 1.461777783946062
+    },
+    {
+      "logit_temperature": 1.11,
+      "cache_lambda": 0.05,
+      "cache_theta": 16.0,
+      "bpb": 1.4618630647351767
+    },
+    {
+      "logit_temperature": 1.12,
+      "cache_lambda": 0.05,
+      "cache_theta": 16.0,
+      "bpb": 1.4619281811811948
+    },
+    {
+      "logit_temperature": 1.1,
+      "cache_lambda": 0.05,
+      "cache_theta": 16.0,
+      "bpb": 1.4619390883790442
+    },
+    {
+      "logit_temperature": 1.13,
+      "cache_lambda": 0.05,
+      "cache_theta": 12.0,
+      "bpb": 1.4619856968480305
+    },
+    {
+      "logit_temperature": 1.13,
+      "cache_lambda": 0.06,
+      "cache_theta": 12.0,
+      "bpb": 1.4620180030470018
+    },
+    {
+      "logit_temperature": 1.11,
+      "cache_lambda": 0.06,
+      "cache_theta": 16.0,
+      "bpb": 1.4620190251016691
+    },
+    {
+      "logit_temperature": 1.12,
+      "cache_lambda": 0.06,
+      "cache_theta": 16.0,
+      "bpb": 1.4620818036991843
+    },
+    {
+      "logit_temperature": 1.1,
+      "cache_lambda": 0.06,
+      "cache_theta": 16.0,
+      "bpb": 1.4620964833607732
+    },
+    {
+      "logit_temperature": 1.11,
+      "cache_lambda": 0.04,
+      "cache_theta": 12.0,
+      "bpb": 1.462130434888166
+    },
+    {
+      "logit_temperature": 1.13,
+      "cache_lambda": 0.05,
+      "cache_theta": 16.0,
+      "bpb": 1.4621307062380056
+    },
+    {
+      "logit_temperature": 1.1,
+      "cache_lambda": 0.04,
+      "cache_theta": 12.0,
+      "bpb": 1.4621701779444578
+    },
+    {
+      "logit_temperature": 1.11,
+      "cache_lambda": 0.04,
+      "cache_theta": 16.0,
+      "bpb": 1.4622274574222898
+    },
+    {
+      "logit_temperature": 1.12,
+      "cache_lambda": 0.04,
+      "cache_theta": 12.0,
+      "bpb": 1.4622317399240958
+    },
+    {
+      "logit_temperature": 1.13,
+      "cache_lambda": 0.06,
+      "cache_theta": 16.0,
+      "bpb": 1.46228110516094
+    },
+    {
+      "logit_temperature": 1.12,
+      "cache_lambda": 0.04,
+      "cache_theta": 16.0,
+      "bpb": 1.4622931746182228
+    },
+    {
+      "logit_temperature": 1.1,
+      "cache_lambda": 0.04,
+      "cache_theta": 16.0,
+      "bpb": 1.46230392352156
+    },
+    {
+      "logit_temperature": 1.14,
+      "cache_lambda": 0.05,
+      "cache_theta": 12.0,
+      "bpb": 1.4623589207285723
+    },
+    {
+      "logit_temperature": 1.14,
+      "cache_lambda": 0.06,
+      "cache_theta": 12.0,
+      "bpb": 1.4623899568075975
+    },
+    {
+      "logit_temperature": 1.14,
+      "cache_lambda": 0.05,
+      "cache_theta": 16.0,
+      "bpb": 1.4624670265905682
+    },
+    {
+      "logit_temperature": 1.13,
+      "cache_lambda": 0.04,
+      "cache_theta": 12.0,
+      "bpb": 1.4624703980961242
+    },
+    {
+      "logit_temperature": 1.13,
+      "cache_lambda": 0.04,
+      "cache_theta": 16.0,
+      "bpb": 1.4624973236955336
+    },
+    {
+      "logit_temperature": 1.14,
+      "cache_lambda": 0.06,
+      "cache_theta": 16.0,
+      "bpb": 1.4626133325227737
+    },
+    {
+      "logit_temperature": 1.11,
+      "cache_lambda": 0.05,
+      "cache_theta": 20.0,
+      "bpb": 1.4628037149373307
+    },
+    {
+      "logit_temperature": 1.14,
+      "cache_lambda": 0.04,
+      "cache_theta": 16.0,
+      "bpb": 1.46283627123139
+    },
+    {
+      "logit_temperature": 1.12,
+      "cache_lambda": 0.05,
+      "cache_theta": 20.0,
+      "bpb": 1.462838821495459
+    },
+    {
+      "logit_temperature": 1.14,
+      "cache_lambda": 0.04,
+      "cache_theta": 12.0,
+      "bpb": 1.4628428303118732
+    },
+    {
+      "logit_temperature": 1.1,
+      "cache_lambda": 0.05,
+      "cache_theta": 20.0,
+      "bpb": 1.4629108917999938
+    },
+    {
+      "logit_temperature": 1.11,
+      "cache_lambda": 0.04,
+      "cache_theta": 20.0,
+      "bpb": 1.4629951885459314
+    },
+    {
+      "logit_temperature": 1.13,
+      "cache_lambda": 0.05,
+      "cache_theta": 20.0,
+      "bpb": 1.4630124302626668
+    },
+    {
+      "logit_temperature": 1.12,
+      "cache_lambda": 0.04,
+      "cache_theta": 20.0,
+      "bpb": 1.463033364528875
+    },
+    {
+      "logit_temperature": 1.1,
+      "cache_lambda": 0.04,
+      "cache_theta": 20.0,
+      "bpb": 1.4631002510450102
+    },
+    {
+      "logit_temperature": 1.11,
+      "cache_lambda": 0.06,
+      "cache_theta": 20.0,
+      "bpb": 1.4631246392732695
+    },
+    {
+      "logit_temperature": 1.12,
+      "cache_lambda": 0.06,
+      "cache_theta": 20.0,
+      "bpb": 1.4631553737778913
+    },
+    {
+      "logit_temperature": 1.12,
+      "cache_lambda": 0.07,
+      "cache_theta": 10.0,
+      "bpb": 1.4632018468841774
+    },
+    {
+      "logit_temperature": 1.13,
+      "cache_lambda": 0.04,
+      "cache_theta": 20.0,
+      "bpb": 1.4632109799174644
+    },
+    {
+      "logit_temperature": 1.1,
+      "cache_lambda": 0.06,
+      "cache_theta": 20.0,
+      "bpb": 1.4632353622483263
+    },
+    {
+      "logit_temperature": 1.11,
+      "cache_lambda": 0.03,
+      "cache_theta": 16.0,
+      "bpb": 1.4633146459386726
+    },
+    {
+      "logit_temperature": 1.14,
+      "cache_lambda": 0.05,
+      "cache_theta": 20.0,
+      "bpb": 1.4633208794270696
+    },
+    {
+      "logit_temperature": 1.13,
+      "cache_lambda": 0.06,
+      "cache_theta": 20.0,
+      "bpb": 1.4633237997150232
+    },
+    {
+      "logit_temperature": 1.11,
+      "cache_lambda": 0.03,
+      "cache_theta": 12.0,
+      "bpb": 1.4633426924517903
+    },
+    {
+      "logit_temperature": 1.12,
+      "cache_lambda": 0.03,
+      "cache_theta": 16.0,
+      "bpb": 1.463378003689393
+    },
+    {
+      "logit_temperature": 1.1,
+      "cache_lambda": 0.03,
+      "cache_theta": 12.0,
+      "bpb": 1.4633906462046244
+    },
+    {
+      "logit_temperature": 1.1,
+      "cache_lambda": 0.03,
+      "cache_theta": 16.0,
+      "bpb": 1.4633947224502082
+    },
+    {
+      "logit_temperature": 1.12,
+      "cache_lambda": 0.03,
+      "cache_theta": 12.0,
+      "bpb": 1.4634371536387525
+    },
+    {
+      "logit_temperature": 1.14,
+      "cache_lambda": 0.04,
+      "cache_theta": 20.0,
+      "bpb": 1.4635243557265663
+    },
+    {
+      "logit_temperature": 1.13,
+      "cache_lambda": 0.03,
+      "cache_theta": 16.0,
+      "bpb": 1.463581018717642
+    },
+    {
+      "logit_temperature": 1.14,
+      "cache_lambda": 0.06,
+      "cache_theta": 20.0,
+      "bpb": 1.4636262697157438
+    },
+    {
+      "logit_temperature": 1.13,
+      "cache_lambda": 0.03,
+      "cache_theta": 12.0,
+      "bpb": 1.4636703057240266
+    },
+    {
+      "logit_temperature": 1.11,
+      "cache_lambda": 0.05,
+      "cache_theta": 24.0,
+      "bpb": 1.463776953974756
+    },
+    {
+      "logit_temperature": 1.12,
+      "cache_lambda": 0.05,
+      "cache_theta": 24.0,
+      "bpb": 1.4637890149099992
+    },
+    {
+      "logit_temperature": 1.11,
+      "cache_lambda": 0.04,
+      "cache_theta": 24.0,
+      "bpb": 1.4638103696736549
+    },
+    {
+      "logit_temperature": 1.12,
+      "cache_lambda": 0.04,
+      "cache_theta": 24.0,
+      "bpb": 1.4638272869202849
+    },
+    {
+      "logit_temperature": 1.11,
+      "cache_lambda": 0.03,
+      "cache_theta": 20.0,
+      "bpb": 1.463899167843055
+    },
+    {
+      "logit_temperature": 1.1,
+      "cache_lambda": 0.05,
+      "cache_theta": 24.0,
+      "bpb": 1.463908139658885
+    },
+    {
+      "logit_temperature": 1.14,
+      "cache_lambda": 0.03,
+      "cache_theta": 16.0,
+      "bpb": 1.4639200334609739
+    },
+    {
+      "logit_temperature": 1.1,
+      "cache_lambda": 0.04,
+      "cache_theta": 24.0,
+      "bpb": 1.4639375788411952
+    },
+    {
+      "logit_temperature": 1.12,
+      "cache_lambda": 0.03,
+      "cache_theta": 20.0,
+      "bpb": 1.4639380763945984
+    },
+    {
+      "logit_temperature": 1.13,
+      "cache_lambda": 0.05,
+      "cache_theta": 24.0,
+      "bpb": 1.4639404995186638
+    },
+    {
+      "logit_temperature": 1.13,
+      "cache_lambda": 0.04,
+      "cache_theta": 24.0,
+      "bpb": 1.4639844915962454
+    },
+    {
+      "logit_temperature": 1.1,
+      "cache_lambda": 0.03,
+      "cache_theta": 20.0,
+      "bpb": 1.464004643736885
+    },
+    {
+      "logit_temperature": 1.14,
+      "cache_lambda": 0.03,
+      "cache_theta": 12.0,
+      "bpb": 1.4640385416140773
+    },
+    {
+      "logit_temperature": 1.13,
+      "cache_lambda": 0.03,
+      "cache_theta": 20.0,
+      "bpb": 1.4641175481996132
+    },
+    {
+      "logit_temperature": 1.14,
+      "cache_lambda": 0.05,
+      "cache_theta": 24.0,
+      "bpb": 1.464227705648063
+    },
+    {
+      "logit_temperature": 1.11,
+      "cache_lambda": 0.06,
+      "cache_theta": 24.0,
+      "bpb": 1.464247436351406
+    },
+    {
+      "logit_temperature": 1.12,
+      "cache_lambda": 0.06,
+      "cache_theta": 24.0,
+      "bpb": 1.4642536571861944
+    },
+    {
+      "logit_temperature": 1.14,
+      "cache_lambda": 0.04,
+      "cache_theta": 24.0,
+      "bpb": 1.464278266725344
+    },
+    {
+      "logit_temperature": 1.1,
+      "cache_lambda": 0.06,
+      "cache_theta": 24.0,
+      "bpb": 1.4643837025482376
+    },
+    {
+      "logit_temperature": 1.13,
+      "cache_lambda": 0.06,
+      "cache_theta": 24.0,
+      "bpb": 1.4643985551025573
+    },
+    {
+      "logit_temperature": 1.14,
+      "cache_lambda": 0.03,
+      "cache_theta": 20.0,
+      "bpb": 1.4644338829327137
+    },
+    {
+      "logit_temperature": 1.11,
+      "cache_lambda": 0.04,
+      "cache_theta": 28.0,
+      "bpb": 1.464534810246572
+    },
+    {
+      "logit_temperature": 1.12,
+      "cache_lambda": 0.04,
+      "cache_theta": 28.0,
+      "bpb": 1.464535171211537
+    },
+    {
+      "logit_temperature": 1.11,
+      "cache_lambda": 0.03,
+      "cache_theta": 24.0,
+      "bpb": 1.4645448437099515
+    },
+    {
+      "logit_temperature": 1.12,
+      "cache_lambda": 0.03,
+      "cache_theta": 24.0,
+      "bpb": 1.4645647414854903
+    },
+    {
+      "logit_temperature": 1.12,
+      "cache_lambda": 0.05,
+      "cache_theta": 28.0,
+      "bpb": 1.4646289450334034
+    },
+    {
+      "logit_temperature": 1.11,
+      "cache_lambda": 0.05,
+      "cache_theta": 28.0,
+      "bpb": 1.4646347745293344
+    },
+    {
+      "logit_temperature": 1.1,
+      "cache_lambda": 0.03,
+      "cache_theta": 24.0,
+      "bpb": 1.4646701291366457
+    },
+    {
+      "logit_temperature": 1.13,
+      "cache_lambda": 0.04,
+      "cache_theta": 28.0,
+      "bpb": 1.464676513978982
+    },
+    {
+      "logit_temperature": 1.14,
+      "cache_lambda": 0.06,
+      "cache_theta": 24.0,
+      "bpb": 1.4646784411469889
+    },
+    {
+      "logit_temperature": 1.1,
+      "cache_lambda": 0.04,
+      "cache_theta": 28.0,
+      "bpb": 1.4646793015991346
+    },
+    {
+      "logit_temperature": 1.13,
+      "cache_lambda": 0.03,
+      "cache_theta": 24.0,
+      "bpb": 1.4647259642795252
+    },
+    {
+      "logit_temperature": 1.13,
+      "cache_lambda": 0.05,
+      "cache_theta": 28.0,
+      "bpb": 1.4647632926671121
+    },
+    {
+      "logit_temperature": 1.1,
+      "cache_lambda": 0.05,
+      "cache_theta": 28.0,
+      "bpb": 1.4647846381837824
+    },
+    {
+      "logit_temperature": 1.14,
+      "cache_lambda": 0.04,
+      "cache_theta": 28.0,
+      "bpb": 1.4649550909035636
+    },
+    {
+      "logit_temperature": 1.14,
+      "cache_lambda": 0.03,
+      "cache_theta": 24.0,
+      "bpb": 1.4650247767113491
+    },
+    {
+      "logit_temperature": 1.14,
+      "cache_lambda": 0.05,
+      "cache_theta": 28.0,
+      "bpb": 1.4650340835433773
+    },
+    {
+      "logit_temperature": 1.11,
+      "cache_lambda": 0.03,
+      "cache_theta": 28.0,
+      "bpb": 1.465125531262655
+    },
+    {
+      "logit_temperature": 1.12,
+      "cache_lambda": 0.03,
+      "cache_theta": 28.0,
+      "bpb": 1.4651305598025781
+    },
+    {
+      "logit_temperature": 1.12,
+      "cache_lambda": 0.06,
+      "cache_theta": 28.0,
+      "bpb": 1.465218263639625
+    },
+    {
+      "logit_temperature": 1.11,
+      "cache_lambda": 0.06,
+      "cache_theta": 28.0,
+      "bpb": 1.4652310262949801
+    },
+    {
+      "logit_temperature": 1.1,
+      "cache_lambda": 0.03,
+      "cache_theta": 28.0,
+      "bpb": 1.4652663399052992
+    },
+    {
+      "logit_temperature": 1.13,
+      "cache_lambda": 0.03,
+      "cache_theta": 28.0,
+      "bpb": 1.4652775379976124
+    },
+    {
+      "logit_temperature": 1.13,
+      "cache_lambda": 0.06,
+      "cache_theta": 28.0,
+      "bpb": 1.4653449845890987
+    },
+    {
+      "logit_temperature": 1.1,
+      "cache_lambda": 0.06,
+      "cache_theta": 28.0,
+      "bpb": 1.4653871173564466
+    },
+    {
+      "logit_temperature": 1.11,
+      "cache_lambda": 0.02,
+      "cache_theta": 16.0,
+      "bpb": 1.4655220832363574
+    },
+    {
+      "logit_temperature": 1.14,
+      "cache_lambda": 0.03,
+      "cache_theta": 28.0,
+      "bpb": 1.465562702052378
+    },
+    {
+      "logit_temperature": 1.12,
+      "cache_lambda": 0.02,
+      "cache_theta": 16.0,
+      "bpb": 1.4655773142114479
+    },
+    {
+      "logit_temperature": 1.14,
+      "cache_lambda": 0.06,
+      "cache_theta": 28.0,
+      "bpb": 1.4656074662103182
+    },
+    {
+      "logit_temperature": 1.1,
+      "cache_lambda": 0.02,
+      "cache_theta": 16.0,
+      "bpb": 1.4656118843519308
+    },
+    {
+      "logit_temperature": 1.11,
+      "cache_lambda": 0.02,
+      "cache_theta": 12.0,
+      "bpb": 1.4656708605745028
+    },
+    {
+      "logit_temperature": 1.1,
+      "cache_lambda": 0.02,
+      "cache_theta": 12.0,
+      "bpb": 1.4657345551672127
+    },
+    {
+      "logit_temperature": 1.12,
+      "cache_lambda": 0.02,
+      "cache_theta": 12.0,
+      "bpb": 1.4657513300070322
+    },
+    {
+      "logit_temperature": 1.13,
+      "cache_lambda": 0.02,
+      "cache_theta": 16.0,
+      "bpb": 1.4657737665783817
+    },
+    {
+      "logit_temperature": 1.11,
+      "cache_lambda": 0.02,
+      "cache_theta": 20.0,
+      "bpb": 1.4659095250636665
+    },
+    {
+      "logit_temperature": 1.12,
+      "cache_lambda": 0.02,
+      "cache_theta": 20.0,
+      "bpb": 1.4659443960674514
+    },
+    {
+      "logit_temperature": 1.13,
+      "cache_lambda": 0.02,
+      "cache_theta": 12.0,
+      "bpb": 1.465972199442255
+    },
+    {
+      "logit_temperature": 1.1,
+      "cache_lambda": 0.02,
+      "cache_theta": 20.0,
+      "bpb": 1.4660205039377603
+    },
+    {
+      "logit_temperature": 1.14,
+      "cache_lambda": 0.02,
+      "cache_theta": 16.0,
+      "bpb": 1.466107749362885
+    },
+    {
+      "logit_temperature": 1.13,
+      "cache_lambda": 0.02,
+      "cache_theta": 20.0,
+      "bpb": 1.4661212660536356
+    },
+    {
+      "logit_temperature": 1.14,
+      "cache_lambda": 0.02,
+      "cache_theta": 12.0,
+      "bpb": 1.466329823096469
+    },
+    {
+      "logit_temperature": 1.11,
+      "cache_lambda": 0.02,
+      "cache_theta": 24.0,
+      "bpb": 1.4663691879500234
+    },
+    {
+      "logit_temperature": 1.12,
+      "cache_lambda": 0.02,
+      "cache_theta": 24.0,
+      "bpb": 1.4663880419104907
+    },
+    {
+      "logit_temperature": 1.14,
+      "cache_lambda": 0.02,
+      "cache_theta": 20.0,
+      "bpb": 1.4664364058824602
+    },
+    {
+      "logit_temperature": 1.1,
+      "cache_lambda": 0.02,
+      "cache_theta": 24.0,
+      "bpb": 1.4664968709738968
+    },
+    {
+      "logit_temperature": 1.13,
+      "cache_lambda": 0.02,
+      "cache_theta": 24.0,
+      "bpb": 1.4665495486127806
+    },
+    {
+      "logit_temperature": 1.11,
+      "cache_lambda": 0.02,
+      "cache_theta": 28.0,
+      "bpb": 1.4667908879894067
+    },
+    {
+      "logit_temperature": 1.12,
+      "cache_lambda": 0.02,
+      "cache_theta": 28.0,
+      "bpb": 1.4667971362013035
+    },
+    {
+      "logit_temperature": 1.14,
+      "cache_lambda": 0.02,
+      "cache_theta": 24.0,
+      "bpb": 1.4668499474951333
+    },
+    {
+      "logit_temperature": 1.1,
+      "cache_lambda": 0.02,
+      "cache_theta": 28.0,
+      "bpb": 1.4669317408293574
+    },
+    {
+      "logit_temperature": 1.13,
+      "cache_lambda": 0.02,
+      "cache_theta": 28.0,
+      "bpb": 1.466946575183432
+    },
+    {
+      "logit_temperature": 1.14,
+      "cache_lambda": 0.02,
+      "cache_theta": 28.0,
+      "bpb": 1.4672354189948484
+    }
+  ],
+  "process_seconds": 5.648440300021321,
+  "device": "cuda:0",
+  "device_name": "NVIDIA GeForce RTX 3060 Laptop GPU",
+  "peak_allocated_gb": 0.464249856,
+  "peak_reserved_gb": 0.627048448
+}

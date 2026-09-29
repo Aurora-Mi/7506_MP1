@@ -1,0 +1,22 @@
+{
+  "protocol": "7506-mp1-wt2-v2",
+  "source_checkpoint": "E:\\MP1_student_starter\\code\\runs\\student-224x8-mtp2-ema-matrixwd06-s24000-calibrated-refined-v1\\checkpoint.pt",
+  "source_checkpoint_sha256": "563420525a7f500f9ddc30dd5bbfb140c99a9efe17a5707107edbdf1e4950399",
+  "statistics_split": "train",
+  "selection_split": "validation",
+  "train_text_sha256": "c58d555a94ada0882d1e8c0b3dc7ba68e1c269da5ad9e7a057300245d130c4e8",
+  "tokenizer_sha256": "020d1bc6aa4449c4f352b2e03d0e0fb4f39287f15297705e421b1fa7d817262e",
+  "alpha": 1.0,
+  "weight": 0.02,
+  "training_pairs": 3613342,
+  "checkpoint_sha256": "c8c30df36e1e0b29beb11c36155d3f36020d2f8ad8462ee55d89e25a77db574f",
+  "implementation_sha256": "689c6a9c2b1934687c2eaec4f06593c3e604f098f7c16e8afbe247903e334b7c",
+  "base_implementation_sha256": "71a43d118b593b0e253eb3d49d767f965e353632604e625f991843d3823f9022",
+  "exporter_sha256": "6d8e44544fadb4e27217a8dffccc865c5dfa5a8b578813bbe32f6066f44762a5",
+  "neural_weights_unchanged": true,
+  "inference_asset_bytes": 38069018,
+  "inference_asset_mib": 36.30544471740723,
+  "bigram_table_bytes": 16777216,
+  "process_seconds": 5.592864300007932,
+  "note": "No new neural training. Validate with the unchanged CPU FP32 evaluator."
+}

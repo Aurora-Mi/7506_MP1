@@ -1,0 +1,19 @@
+{
+  "frozen_at": "2026-09-28T12:44:35.4599688+08:00",
+  "status": "frozen_and_tested_final",
+  "validation_bpb": 1.4598314480072423,
+  "test_bpb": 1.476789395067789,
+  "test_seconds": 24.190735699958168,
+  "recorded_baseline_seconds": 5.806730700016487,
+  "recorded_time_ratio": 4.16598202149955,
+  "inference_asset_bytes": 38069018,
+  "sha256": {
+    "checkpoint.pt": "c8c30df36e1e0b29beb11c36155d3f36020d2f8ad8462ee55d89e25a77db574f",
+    "student.py": "71a43d118b593b0e253eb3d49d767f965e353632604e625f991843d3823f9022",
+    "student_bigram.py": "689c6a9c2b1934687c2eaec4f06593c3e604f098f7c16e8afbe247903e334b7c",
+    "evaluate.py": "128bcb2dab0be0d427505bddb4671e3ab3a8f78e114be79a689c0f9029af133d",
+    "common.py": "d40dc1fe6578b5993a563bdb4d9e5317ddc9fae8afe48822b66571c7042e84db",
+    "validation_cpu_fp32.json": "a02d731b17df9bc3cd4ccc5dee55cc6c167df635a487eba8279fd1b748feadf1",
+    "test_cpu_fp32.json": "801e53edce97f65953e8b7ebbc9fb72ebd170856e3eaf80ed5fc48cfa0476328"
+  }
+}

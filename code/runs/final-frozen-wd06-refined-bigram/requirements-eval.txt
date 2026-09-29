@@ -1,0 +1,4 @@
+# Install torch==2.7.1 separately from the official CPU or cu126 index.
+# Remaining package versions from the environment used for final acceptance.
+numpy==2.5.3
+tokenizers==0.21.4
